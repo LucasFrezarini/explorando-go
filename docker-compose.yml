@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mysql-go:
+    container_name: mysql-go
+    image: mysql:5.7
+    environment: 
+      MYSQL_ROOT_PASSWORD: admin
+    ports: 
+      - 3307:3306
